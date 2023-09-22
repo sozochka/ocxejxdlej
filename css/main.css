@@ -1,0 +1,92 @@
+.test{
+    color: blue;
+    
+}
+/* Селектор по классу */
+
+h1{
+ color: #311a51;
+}
+/* Селектор по типу элемента */
+
+#unic{
+    font-size: larger;
+    color: darkblue;
+}
+/* Селектор по идентификатору */
+
+ul > li {
+    font-weight: 800;
+    list-style-type: circle;
+}
+/* Селектор потомков */
+
+nav > ol {
+    /* background-color: #14a7b5; */
+    border-radius: 10px;
+    color: rgb(152, 206, 253);
+    width: 300px;
+}
+
+nav:hover{
+    background-color: deeppink;
+    width: 300px;
+    border-radius: 10px;
+}
+
+a{
+    color: #cfb507;
+}
+
+a:hover{
+    color: #311a51;
+}
+/* Селектор псевдоклассов */
+
+a:active{
+    color: chartreuse;
+}
+
+li:first-child {
+    font-weight: bold;
+    color: olive;
+} 
+
+h2 + p{
+    font-weight: bold;
+    color: rgb(238, 199, 156);
+    font-size: larger;
+}
+
+.kubick{
+    width: 100px;
+    height: 100px;
+    background-color: #311a51;
+    color: aliceblue;
+    border-radius: 5px ;
+    text-align: center;
+}
+
+.corzina{
+    width: 250px ;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+.content-container{
+    background-color: honeydew;
+    border-radius: 2%;
+    padding: 5% 1%;
+    margin-top: 3%;
+}
+
+.section{
+    border: solid 1px #311a51;
+    border-radius: 5px ;
+    margin-top: 1%;
+    padding-left: 10%;
+}
